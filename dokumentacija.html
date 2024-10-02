@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dokumentacija</title>
+  </head>
+
+  <body>
+    <h1>AVIONI APP</h1>
+
+    <h3>Opis Arhitekture Projekta</h3>
+    <ul>
+      <li>
+        AvioniApp
+        <ul>
+          <li>
+            system
+            <ul>
+              <li>
+                control
+                <ul>
+                  <li>AddCountryPage.class.php</li>
+                  <li>CurrentFlightsPage.class.php</li>
+                  <li>DeletePage.class.php</li>
+                  <li>FollowFlightPage.class.php</li>
+                  <li>GetCountryPage.class.php</li>
+                  <li>IndexPage.class.php</li>
+                  <li>SaveAllFlightsPage.class.php</li>
+                  <li>UpdateCountryPage.class.php</li>
+                </ul>
+              </li>
+              <li>
+                exception
+                <ul>
+                  <li>DatabaseException.class.php</li>
+                  <li>SystemException.class.php</li>
+                </ul>
+              </li>
+              <li>
+                model
+                <ul>
+                  <li>MySQLiDatabase.class.php</li>
+                </ul>
+              </li>
+              <li>
+                util
+                <ul>
+                  <li>RequestHandler.class.php</li>
+                </ul>
+              </li>
+              <li>
+                view
+                <ul>
+                  <li>AddCountry.tpl.php</li>
+                  <li>Current.tpl.php</li>
+                  <li>Delete.tpl.php</li>
+                  <li>error.tpl.php</li>
+                  <li>Folloow.tpl.php</li>
+                  <li>GetCountry.tpl.php</li>
+                  <li>index.tpl.php</li>
+                  <li>SaveAllFlight.tpl.php</li>
+                  <li>UpdateCountry.tpl.php</li>
+                </ul>
+              </li>
+              <li>AbstractPage.class.php</li>
+              <li>AppCore.class.php</li>
+              <li>config.inc.php</li>
+              <li>core.functions.php</li>
+              <li>.htaccess</li>
+              <li>options.inc.php</li>
+            </ul>
+          </li>
+          <li>index.php</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h1>Postavljanje aplikacije</h1>
+    <h3>Instaliranje Baze podataka</h3>
+    <p>
+      Za uspješnu instalaciju potrebno je pokrenuti
+      http://localhost/AvioniApp/system/model/setup.php
+    </p>
+    <p>
+      Nakon što je baza kreirana pokretanjem
+      http://localhost/AvioniApp/?page=Index
+    </p>
+    <p>Pokazati će Vam se popis resursa tj. endpointa</p>
+    <p></p>
+    <br />
+
+    <h3>Izvjštaj testiranja</h3>
+
+    <p></p>
+  </body>
+</html>
